@@ -10,6 +10,9 @@ Tested in ROS Fuerte.
 
 In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
 
+   
+    export ROS_PACKAGE_PATH="/path/to/src/bag_from_images:$ROS_PACKAGE_PATH"
+
     git clone https://github.com/raulmur/BagFromImages.git BagFromImages
     
     cd BagFromImages
